@@ -1,0 +1,77 @@
+.main-section{
+    padding:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-heading{
+    text-align:center;
+    color:black;
+}
+
+.add-entry-button{
+    background:black;
+    color:white;
+    border:none;
+    border-radius:6px;
+    padding:8px 20px;
+}
+.add-entry-button:hover{
+    background:white;
+    font-weight: bolder;
+    color:black;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form textarea{
+    height:100px;
+}
+.horizontal-line{
+    height:1px;
+    border:none;
+    background:white;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding:5px;
+  }
+
+  th{
+    background:black;
+    color:white;
+
+  }
+  td{
+    border-bottom: 1px solid black;
+    padding:5px;
+    background-color:rgb(18, 17, 17) 0.3;
+    background-color: #ffffff;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+.action-buttons{
+    text-align:center;
+    width:20%;
+}
+button{
+    margin:2px;
+    border:none;
+    border-radius:5px;
+    padding:6px 16px;
+}
+.edit-button{
+    background:rgb(252, 193, 46);
+    color:black;
+}
+.delete-button{
+    background:red;
+    color:white;
+}
